@@ -47,10 +47,10 @@ a{
 }
 
 table{
-    border-collapse: separate;
     border: 2px solid black;
     margin: 0 auto;
     border-radius: 15px;
+    border-collapse: separate;
 }
 
 thead th:first-child{
@@ -63,6 +63,7 @@ thead th:last-child{
 
 tbody tr:last-child th:first-child{
   border-bottom-left-radius: 15px;
+
 }
 
 tbody tr:last-child td:last-child{
@@ -77,19 +78,25 @@ tbody tr:last-child td:last-child{
   text-align: center;
   text-transform: uppercase;
 }
+.rowhead{
+  border-top: 2px solid black;
+}
+
+/* tr{
+} */
 
 
-.rowhead{}
 
 td{
   padding: 15px;
   text-align: center;
+  border-top: 2px solid black;
 
 }
-
+/* 
 tr{
   border: 2px solid black;
-}
+} */
 
 tr:nth-child(odd){
   background-color: #D1D1D1;
