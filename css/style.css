@@ -16,6 +16,7 @@ body{
   background-size: cover ;
   background-position: center;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
 }
 
@@ -40,7 +41,7 @@ p{
   padding-top: 10px;
 }
 
-a{
+a:link{
   font-size: 16px;
   color: #B21F50;
   text-decoration-style: wavy;
@@ -72,8 +73,8 @@ tbody tr:last-child td:last-child{
 
 .colhead{
   background-color: #7e0820;
-  color: solid #FFFFFF;
-  width: 100px;
+  color: #FFFFFF;
+  min-width: 100px;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
