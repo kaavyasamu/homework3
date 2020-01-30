@@ -117,6 +117,9 @@ footer{
   width:100%;
   background: #000000;
   text-align:center;
-  color: white;
   min-height: 60px;
+}
+
+footer p{
+  color: #ffffff;
 }
